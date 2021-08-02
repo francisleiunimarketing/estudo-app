@@ -1,0 +1,104 @@
+                main {
+                    width: 380px;
+                    height: 740px;
+                    background-color: #020D4D;
+                    border-radius: 25px;
+                    margin: auto;
+                }
+                
+                #wifi>img {
+                    margin-right: 10px;
+                }
+                
+                #wifi {
+                    display: flex;
+                    padding: 10px;
+                    filter: invert(100%);
+                    padding: 15px;
+                    height: 20px;
+                    margin: auto;
+                }
+                
+                #wifi>span {
+                    font-family: Arial, Helvetica, sans-serif;
+                    margin-right: 183px;
+                    margin-left: 10px;
+                    font-weight: 900;
+                }
+                
+                #background {
+                    width: 380px;
+                    height: 208px;
+                    border-radius: 25px;
+                    opacity: 70%;
+                }
+                
+                #titulo {
+                    font-family: Arial, Helvetica, sans-serif;
+                    color: white;
+                    text-align: center;
+                    font-weight: 600;
+                    margin-top: 50px;
+                }
+                
+                #divlogo {
+                    margin: auto;
+                    margin-left: 150px;
+                    margin-top: 100px;
+                }
+                
+                h2 {
+                    text-align: center;
+                    font-family: Arial, Helvetica, sans-serif;
+                    color: white;
+                    margin: none;
+                }
+                
+                #logo {
+                    width: 80px;
+                }
+                
+                #login {
+                    text-align: center;
+                }
+                
+                #login>input {
+                    background-color: transparent;
+                    color: white;
+                    padding: 10px;
+                    border-radius: 50px;
+                    margin: 5px;
+                    width: 250px;
+                    outline: none;
+                    border-color: white;
+                }
+                
+                #divbotao>button {
+                    text-align: center;
+                    background-color: transparent;
+                    color: white;
+                    padding: 10px;
+                    border-radius: 50px;
+                    margin: 5px;
+                    width: 100px;
+                    outline: none;
+                    border-color: white;
+                    margin-left: 140px;
+                    margin-top: 20px
+                }
+                
+                #divbotao>button:hover {
+                    background-color: rgba(255, 255, 255, 0.199);
+                    cursor: pointer;
+                }
+                
+                #login>input:hover {
+                    background-color: rgba(255, 255, 255, 0.11);
+                }
+                
+                body {
+                    background-image: url(https://i.ytimg.com/vi/YukiAagk8S0/maxresdefault.jpg);
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                    opacity: 90%;
+                }

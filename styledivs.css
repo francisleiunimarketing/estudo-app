@@ -1,0 +1,18 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div:hover{
+    color: rgb(89, 0, 255);
+    width: 200px;
+}
+div > p {
+    display: none;
+}
+
+div:hover > p {
+     display: block;
+     background-color: rgb(0, 0, 0);
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

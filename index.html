@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blocos e divis</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function showTimer() {
+            var time = new Date();
+            var hour = time.getHours();
+            var minute = time.getMinutes();
+            var second = time.getSeconds();
+            if (hour < 10) hour = "0" + hour;
+            if (minute < 10) minute = "0" + minute;
+            if (second < 10) second = "0" + second;
+            var st = hour + ":" + minute + ":" + second;
+            document.getElementById("timer").innerHTML = st;
+        }
+
+        function initTimer() {
+            // O metodo nativo setInterval executa uma determinada funcao em um determinado tempo  
+            setInterval(showTimer, 1000);
+        }
+    </script>
+
+</head>
+
+<body onLoad="initTimer();">
+    <main>
+
+        <div id="wifi">
+            <span id="timer">Relógio</span>
+            <img src="https://img.icons8.com/material-outlined/24/000000/cellular-network.png" />
+            <img src="https://img.icons8.com/material-outlined/24/000000/wifi-lock.png" />
+            <img src="https://img.icons8.com/ios-glyphs/30/000000/high-battery.png" />
+        </div>
+
+        <p id="titulo">criando o app que a sua empresa merece!</p>
+
+
+        <div id="divlogo">
+            <img id="logo" src="F.png" alt="logo">
+        </div>
+
+        <h2>Francislei Ramalho</h2>
+        <div id="login">
+            <input id="email" type="email" placeholder="email"></input>
+            <br>
+            <input id="senha" type="password" placeholder="senha">
+        </div>
+        <div id="divbotao">
+            <button>Entrar</button>
+        </div>
+        <img id="background" src="backgroundIMG.png" alt="img">
+    </main>
+</body>
+
+</html>
